@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/navigation_Emergency"
+        android:icon="@drawable/emergency"
+        android:title="@string/title_Emergency" />
+
+
+    <item
+        android:id="@+id/navigation_Feedback"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="@string/title_Feedback" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="@string/title_notifications" />
+
+
+    <item
+        android:id="@+id/navigation_act"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="@string/title_myAct" />
+
+    <!--<item-->
+    <!--android:id="@+id/nav_search"-->
+    <!--android:icon="@drawable/ic_home_black_24dp"-->
+    <!--android:title="Messages" />-->
+
+
+</menu>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:background="#ffffff"
+    tools:context=".activity_emergency">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           >
+
+
+                <Spinner
+                    android:id="@+id/SpinnerPiority"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    app:layout_constraintBottom_toTopOf="@+id/SpinnerType"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.078"
+                    app:layout_constraintStart_toStartOf="parent"
+
+                    />
+
+
+                <!--<EditText-->
+
+                <!--android:id="@+id/spinnerPiorityText"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="0dp"-->
+
+
+                <!--android:layout_marginEnd="16dp"-->
+                <!--android:layout_marginBottom="560dp"-->
+                <!--app:layout_constraintBottom_toTopOf="@+id/loginBtn"-->
+                <!--app:layout_constraintEnd_toEndOf="@+id/SpinnerPiority"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+                <Spinner
+                    android:id="@+id/SpinnerType"
+                    android:layout_width="match_parent"
+                    android:layout_height="52dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:ems="10"
+                    app:layout_constraintBottom_toTopOf="@+id/textLocation"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.078"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <EditText
+
+                    android:id="@+id/textLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginBottom="20dp"
+
+                    android:hint="Enter Location"
+                    android:inputType="text|textMultiLine"
+                    android:lines="4"
+                    android:maxLines="5"
+                    android:scrollbars="vertical"
+                    android:ems="16"
+
+                    app:layout_constraintBottom_toTopOf="@+id/editTextCmt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+
+
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/btnGetMyLocation"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="10dp"
+
+
+                    android:background="@android:drawable/ic_menu_mylocation"
+
+                    app:layout_constraintBottom_toBottomOf="@+id/textLocation"
+
+                    app:layout_constraintBottom_toTopOf="@+id/editTextCmt"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toEndOf="@+id/textLocation"
+                    app:layout_constraintTop_toTopOf="@+id/textLocation"
+                    app:layout_constraintVertical_bias="0.0"
+
+
+                    />
+
+                <!--app:layout_constraintEnd_toEndOf="parent"-->
+                <!--app:layout_constraintHorizontal_bias="0.986"-->
+
+                <!--app:layout_constraintStart_toEndOf="@+id/textLocation"-->
+                <!--app:layout_constraintTop_toTopOf="@+id/textLocation"-->
+                <!--app:layout_constraintVertical_bias="0.272"-->
+                <!--<ImageView-->
+                <!--android:id="@+id/post_detail_currentuser_img"-->
+                <!--android:layout_width="36dp"-->
+                <!--android:layout_height="36dp"-->
+                <!--android:layout_marginStart="32dp"-->
+                <!--android:layout_marginLeft="32dp"-->
+                <!--android:layout_marginTop="24dp"-->
+                <!--app:layout_constraintStart_toStartOf="parent"-->
+                <!--app:layout_constraintTop_toBottomOf="@+id/post_detail_desc"-->
+                <!--tools:srcCompat="@tools:sample/avatars" />-->
+
+
+                <EditText
+                    android:id="@+id/editTextCmt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="8dp"
+                    android:hint="Enter Description"
+                    android:inputType="text|textMultiLine"
+                    android:lines="4"
+                    android:maxLines="5"
+                    android:scrollbars="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/addImgs"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.200"
+                    app:layout_constraintStart_toStartOf="parent"
+
+
+                    />
+
+
+                <Button
+                    android:id="@+id/addVideo"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="100dp"
+                    android:layout_marginBottom="20dp"
+
+                    android:background="@drawable/close_btn_style"
+                    android:gravity="center"
+                    android:text=" Add video "
+
+                    android:textColor="#fff"
+
+                    app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewImages"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+
+                    />
+
+
+                <Button
+                    android:id="@+id/addImgs"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="108dp"
+
+                    android:layout_marginEnd="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/close_btn_style"
+                    android:gravity="center"
+
+                    android:text=" Add Images "
+
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toTopOf="@+id/horizontalScrollViewImages"
+                    app:layout_constraintEnd_toStartOf="@+id/addVideo"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollViewImages"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginBottom="25dp"
+                    android:scrollbars="none"
+                    app:layout_constraintBottom_toTopOf="@+id/selectedVideo"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.145"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                        <LinearLayout
+                            android:id="@+id/gallery"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal" />
+
+                </HorizontalScrollView>
+
+
+                <VideoView
+
+                    android:id="@+id/selectedVideo"
+                    android:layout_width="310dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="19dp"
+
+                    android:layout_marginBottom="25dp"
+                    app:layout_constraintBottom_toTopOf="@+id/loginBtn"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/loginBtn"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:text=" Submit "
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/clearBtn"
+                    app:layout_constraintHorizontal_bias="0.40"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+                <Button
+                    android:id="@+id/clearBtn"
+                    style="@style/Widget.AppCompat.Button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="@drawable/clear_btn_style"
+                    android:text="Clear"
+                    android:textColor="#fff"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.815"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>
+
+

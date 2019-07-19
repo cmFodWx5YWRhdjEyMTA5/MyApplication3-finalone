@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="0dp"
+    android:layout_marginBottom="5dp"
+    android:background="#ffffff">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/custom_notification_card"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:text="TextView"
+            android:textColor="#969595"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textMsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="35dp"
+            android:text="Text Comment Goes Here"
+            android:textColor="#969595"
+
+            app:layout_constraintStart_toStartOf="parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textTitle"
+            app:layout_constraintVertical_bias="0.0" />
+
+
+        <TextView
+            android:id="@+id/comment_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="5dp"
+            android:text="10:20"
+
+            android:textColor="#969595"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.987"
+            app:layout_constraintStart_toEndOf="@+id/textTitle"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <!--<Button-->
+        <!--android:id="@+id/button1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:text="Leave Additional Feedback"-->
+        <!--android:layout_marginTop="150dp"-->
+        <!--android:background="@color/red"-->
+        <!--android:textColor="#fff"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/comment_date" />-->
+
+
+        <!--<View-->
+        <!--android:id="@+id/texLine"-->
+
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_margin="10dp"-->
+        <!--android:layout_marginStart="10dp"-->
+
+        <!--android:background="@color/lightgray"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="1.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/textMsg"-->
+        <!--app:layout_constraintVertical_bias="1.0" />-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/ImgSender"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[0]" />
+
+
+    <!--<RelativeLayout-->
+    <!--android:paddingBottom="16dp"-->
+    <!--android:id="@+id/relativeLayout"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="25dp"-->
+    <!--android:background="@color/card_notification"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.0"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--app:layout_constraintVertical_bias="0.0"-->
+
+
+    <!--&gt;-->
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/textTitle"-->
+    <!--android:layout_width="165dp"-->
+    <!--android:layout_height="22dp"-->
+    <!--android:layout_marginStart="36dp"-->
+    <!--android:layout_marginTop="28dp"-->
+    <!--android:text="Simple title"-->
+    <!--android:textColor="@color/title_text_color"-->
+    <!--android:textStyle="bold"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textMsg"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginStart="36dp"-->
+    <!--android:layout_marginTop="56dp"-->
+    <!--android:lineSpacingExtra="8dp"-->
+    <!--android:text=""-->
+    <!--android:textColor="@color/content_text_color"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+
+
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/comment_date"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="22dp"-->
+    <!--android:layout_marginStart="40dp"-->
+    <!--android:layout_marginTop="28dp"-->
+    <!--android:layout_toEndOf="@+id/textTitle"-->
+    <!--android:text="Simple title"-->
+    <!--android:textColor="@color/title_text_color"-->
+    <!--android:textStyle="bold"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/ImgSender"-->
+    <!--android:layout_width="36dp"-->
+    <!--android:layout_height="36dp"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="28dp"-->
+
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toTopOf="@+id/relativeLayout"-->
+    <!--tools:srcCompat="@tools:sample/avatars[0]" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+

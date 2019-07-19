@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnLogOut"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="20dp"
+                android:layout_marginLeft="10dp"
+                android:text="LogOut" />
+
+            <ImageView
+                android:id="@+id/userImage"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginVertical="10dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_person_black_24dp"
+                android:scaleType="centerCrop"
+                tools:ignore="VectorDrawableCompat" />
+
+            <EditText
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/txtFirstName"
+                android:layout_width="260dp"
+                android:padding="5dp"
+                android:editable="false"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edit_text"
+                android:hint=" First Name" />
+
+            <EditText
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/txtLastName"
+                android:editable="false"
+                android:layout_width="260dp"
+                android:padding="5dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/custom_edit_text"
+                android:ems="10"
+                android:hint=" Last Name" />
+
+            <EditText
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:id="@+id/txtNIC"
+                android:layout_width="260dp"
+                android:editable="false"
+                android:padding="5dp"
+                android:background="@drawable/custom_edit_text"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:hint=" NIC" />
+
+            <!--<TextView-->
+            <!--android:layout_marginVertical="10dp"-->
+            <!--android:layout_marginHorizontal="20dp"-->
+            <!--android:id="@+id/txtEmail"-->
+            <!--android:layout_width="260dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:ems="10"-->
+            <!--android:background="@drawable/custom_edit_text"-->
+            <!--android:inputType="textPersonName"-->
+            <!--android:hint=" E-Mail" />-->
+
+            <EditText
+                android:id="@+id/txtAddress"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/custom_edit_text"
+                android:layout_width="260dp"
+                android:editable="false"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:hint=" Address" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <Button
+                    android:id="@+id/btnEditProfile"
+                    android:layout_width="160dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:layout_margin="5dp"
+                    android:text="Edit Profile"
+                    android:textSize="12dp"
+                    android:background="@drawable/rounded_button"/>
+
+                <Button
+                    android:id="@+id/btnResetPW"
+                    android:layout_width="160dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:textSize="12dp"
+                    android:text="Reset Password"
+                    android:background="@drawable/rounded_button"/>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

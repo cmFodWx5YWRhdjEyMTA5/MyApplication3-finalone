@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".WelcomeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Sherlock"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:background="@drawable/sherlock_logo"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"/>
+            <Button
+                android:id="@+id/btnSignIn"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/rounded_button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:textSize="12dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:text="Sign In" />
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:background="@drawable/rounded_button"
+                android:layout_marginVertical="10dp"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:padding="5dp"
+                android:textSize="12dp"
+                android:layout_gravity="center"
+                android:text="Sign Up" />
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

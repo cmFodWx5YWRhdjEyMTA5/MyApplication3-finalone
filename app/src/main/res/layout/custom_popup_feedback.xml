@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    >
+
+
+
+
+
+    <EditText
+        android:id="@+id/editTextFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+
+
+        android:hint="Leave Feedback"
+        android:inputType="text|textMultiLine"
+        android:lines="4"
+        android:maxLines="5"
+        android:scrollbars="vertical"
+
+        android:background="@drawable/reg_edittext_style"
+
+
+        />
+
+
+    <View
+        android:id="@+id/texLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/editTextFeedback"
+        android:layout_marginTop="20dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+
+        android:layout_marginBottom="10dp"
+        android:background="@color/lightgray" />
+
+
+    <Button
+
+        android:id="@+id/btnSaveAdditionalFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texLine"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+
+
+        android:gravity="center"
+        android:padding="0dp"
+
+        android:text="Save"
+
+        android:textColor="#fff"
+        android:background="@drawable/save_red_btn_style"
+
+        />
+
+
+
+    <Button
+
+        android:id="@+id/btnCloseAdditionalFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSaveAdditionalFeedback"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:padding="0dp"
+
+        android:text="Close"
+        android:background="@drawable/close_btn_style"
+        android:textColor="#fff"
+
+
+
+        />
+
+
+</RelativeLayout>

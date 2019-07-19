@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    tools:context=".ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/EditCrntPW"
+            android:padding="5dp"
+            android:inputType="textPassword"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:hint="Current Password" />
+
+        <EditText
+            android:id="@+id/EditNewPW"
+            android:layout_width="260dp"
+            android:padding="5dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:hint="New Password" />
+
+        <EditText
+            android:id="@+id/EditCnfrmNewPW"
+            android:layout_width="260dp"
+            android:inputType="textPassword"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/custom_edit_text"
+            android:ems="10"
+            android:hint="Confirm New Password" />
+
+        <!--<TextView-->
+        <!--android:layout_marginVertical="10dp"-->
+        <!--android:layout_marginHorizontal="20dp"-->
+        <!--android:id="@+id/txtEmail"-->
+        <!--android:layout_width="260dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:ems="10"-->
+        <!--android:background="@drawable/custom_edit_text"-->
+        <!--android:inputType="textPersonName"-->
+        <!--android:hint=" E-Mail" />-->
+
+
+        <Button
+            android:id="@+id/btnChngePW"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
+            android:text="Change"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

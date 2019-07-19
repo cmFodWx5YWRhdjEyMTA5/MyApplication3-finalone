@@ -1,0 +1,130 @@
+{
+  "project_info": {
+    "project_number": "462283481957",
+    "firebase_url": "https://sherlockdisastermanagement.firebaseio.com",
+    "project_id": "sherlockdisastermanagement",
+    "storage_bucket": "sherlockdisastermanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462283481957:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462283481957-gga1binrr5t01hald1vaffnj7572vs15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "d275cbc566d77672dfc1bd0b4007604326197b48"
+          }
+        },
+        {
+          "client_id": "462283481957-m197jsp17sn6vn2cmo8ahq3v8dap4gc6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "e4189a9320ad56518ea384c1e5c63d3146619be1"
+          }
+        },
+        {
+          "client_id": "462283481957-c14liekn1v7s19cqgipudsg2c9q3id2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myapplication",
+            "certificate_hash": "91b834407c250e6588d1ace988145f01dd8ea5ea"
+          }
+        },
+        {
+          "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuQU5ldCjDkHfe_1clnIcJqDp4d9N0Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462283481957:android:fd012ed8663ba649",
+        "android_client_info": {
+          "package_name": "com.example.udara.sherlockauthority2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuQU5ldCjDkHfe_1clnIcJqDp4d9N0Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462283481957:android:da7a7c88ca9341c2",
+        "android_client_info": {
+          "package_name": "lk.sherlock.sherlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462283481957-au1phpk875ns523vqamhipa0tbo25mq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "lk.sherlock.sherlock",
+            "certificate_hash": "91b834407c250e6588d1ace988145f01dd8ea5ea"
+          }
+        },
+        {
+          "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuQU5ldCjDkHfe_1clnIcJqDp4d9N0Xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462283481957-a4o7f2d0bpt85m76lfd302reu3ilr92t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
